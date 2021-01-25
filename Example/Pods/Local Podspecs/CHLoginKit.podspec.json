@@ -1,0 +1,22 @@
+{
+  "name": "CHLoginKit",
+  "version": "0.1.0",
+  "summary": "A short description of CHLoginKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/priyankavachhani@callhippo.com/CHLoginKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "priyankavachhani@callhippo.com": "priyankavachhani@callhippo.com"
+  },
+  "source": {
+    "git": "https://github.com/priyankavachhani@callhippo.com/CHLoginKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CHLoginKit/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CHLoginKit (0.1.0)
+
+DEPENDENCIES:
+  - CHLoginKit (from `../`)
+
+EXTERNAL SOURCES:
+  CHLoginKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CHLoginKit: 1b351f777bcc68d97cec1b5d53845beb72782ace
+
+PODFILE CHECKSUM: 57b657ed2c798397ac94cc1d338caf6cfa96ece2
+
+COCOAPODS: 1.8.4

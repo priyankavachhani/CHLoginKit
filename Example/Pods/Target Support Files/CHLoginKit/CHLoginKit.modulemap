@@ -1,0 +1,6 @@
+framework module CHLoginKit {
+  umbrella header "CHLoginKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
