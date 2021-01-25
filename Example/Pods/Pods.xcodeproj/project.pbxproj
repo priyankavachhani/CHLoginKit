@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0964011C579B2B9F28C01783D4EE1994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		14B7CC753AC2FCA899526C445B54A312 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912BB1A069AF38876A30E619A905127 /* ReplaceMe.swift */; };
+		184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BDD25BEDA6F00245B90 /* Login.swift */; };
+		184B6BE225BEE0E700245B90 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BDF25BEE0E600245B90 /* APIResponse.swift */; };
+		184B6BE325BEE0E700245B90 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BE025BEE0E600245B90 /* NetworkManager.swift */; };
+		184B6BE425BEE0E700245B90 /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BE125BEE0E700245B90 /* RestRequest.swift */; };
+		184B6BE625BEE1F600245B90 /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BE525BEE1F600245B90 /* RestClient.swift */; };
+		184B6BE825BEE46700245B90 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BE725BEE46700245B90 /* LoginRequest.swift */; };
 		3439C49D657C314837C6C5BCC84B39AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		66AEB7B215C11B0FE099D8D21773BADC /* Pods-CHLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9702AB66B38872EE140F69A27FCA /* Pods-CHLoginKit_Tests-dummy.m */; };
 		6E983F7E8AAAC7CBC6A44121E0A88C36 /* CHLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,29 +46,34 @@
 		09DA9702AB66B38872EE140F69A27FCA /* Pods-CHLoginKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHLoginKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		0DA652D6970C830A638F83C501400440 /* Pods-CHLoginKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		119796D4F1C0E256598A66770531D57A /* Pods-CHLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		184B6BDD25BEDA6F00245B90 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		184B6BDF25BEE0E600245B90 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		184B6BE025BEE0E600245B90 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		184B6BE125BEE0E700245B90 /* RestRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestRequest.swift; sourceTree = "<group>"; };
+		184B6BE525BEE1F600245B90 /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		184B6BE725BEE46700245B90 /* LoginRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		1C22F9A56A7D334689D503858BB18D8A /* Pods-CHLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27F246D7937665C6D49DEF8EC71252F8 /* Pods-CHLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		29950B880CAA1A4D8B13AD89E701013F /* CHLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHLoginKit-dummy.m"; sourceTree = "<group>"; };
-		3182B59C710A94EDC34F947594AF7967 /* CHLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHLoginKit.framework; path = CHLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3182B59C710A94EDC34F947594AF7967 /* CHLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34F43475D204D5E578AA2B14B7AB2682 /* Pods_CHLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHLoginKit_Tests.framework; path = "Pods-CHLoginKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F43475D204D5E578AA2B14B7AB2682 /* Pods_CHLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAF5DFBCEDCD77818435E9895612DC1 /* Pods-CHLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		51E3E5231391EE7098CE7CBBC089FFF6 /* Pods-CHLoginKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		53D14C19FEBE023D93569899A324FF18 /* Pods-CHLoginKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHLoginKit_Example-dummy.m"; sourceTree = "<group>"; };
-		59638B354E879EE8D7BDB1E2EE721045 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		59638B354E879EE8D7BDB1E2EE721045 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6C5E131C54AA11378EBC047B4046D595 /* Pods-CHLoginKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHLoginKit_Tests.modulemap"; sourceTree = "<group>"; };
-		738E8B23FFA79D874B1AE0F536FDF17C /* Pods_CHLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CHLoginKit_Example.framework; path = "Pods-CHLoginKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7912BB1A069AF38876A30E619A905127 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CHLoginKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		79709AE6187DFDFA19C9C94C9A88993E /* CHLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CHLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		738E8B23FFA79D874B1AE0F536FDF17C /* Pods_CHLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79709AE6187DFDFA19C9C94C9A88993E /* CHLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CHLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-umbrella.h"; sourceTree = "<group>"; };
 		8B8A234B062D7584076442B46AB6AF0C /* CHLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHLoginKit-Info.plist"; sourceTree = "<group>"; };
 		8F74E25F4F0C45602A421760E3AB76C6 /* CHLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHLoginKit.modulemap; sourceTree = "<group>"; };
 		92FE535A716C26C989D291E445A7849D /* Pods-CHLoginKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHLoginKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHLoginKit.xcconfig; sourceTree = "<group>"; };
 		A18746E977BBB16F0407D19CA8041519 /* CHLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-prefix.pch"; sourceTree = "<group>"; };
 		ACA2FFB97C44E54904E3DE3D59452B83 /* Pods-CHLoginKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Example-Info.plist"; sourceTree = "<group>"; };
-		B54780160F5B9294ABECDA478B6720A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B54780160F5B9294ABECDA478B6720A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF7F00544C2DE08E1652A5E5BF474773 /* Pods-CHLoginKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHLoginKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C0E01FB08A41EFA9A84A1047A867A3A1 /* Pods-CHLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C85FA7245658A47884FBD7E471E610CD /* Pods-CHLoginKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHLoginKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -213,7 +223,12 @@
 		F6D22CC826A1343CB5C982ABDECE16DA /* CHLoginKit */ = {
 			isa = PBXGroup;
 			children = (
-				7912BB1A069AF38876A30E619A905127 /* ReplaceMe.swift */,
+				184B6BDF25BEE0E600245B90 /* APIResponse.swift */,
+				184B6BE025BEE0E600245B90 /* NetworkManager.swift */,
+				184B6BE125BEE0E700245B90 /* RestRequest.swift */,
+				184B6BE525BEE1F600245B90 /* RestClient.swift */,
+				184B6BE725BEE46700245B90 /* LoginRequest.swift */,
+				184B6BDD25BEDA6F00245B90 /* Login.swift */,
 				7614AD3CD44DB6C20FCAA590528CD3C5 /* Pod */,
 				AAB6089333F32C9FC42C96F9BE0028EF /* Support Files */,
 			);
@@ -315,6 +330,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					45E2CBDEB3DB79507EF44E2953864126 = {
+						LastSwiftMigration = 1130;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -373,8 +393,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184B6BE825BEE46700245B90 /* LoginRequest.swift in Sources */,
+				184B6BE325BEE0E700245B90 /* NetworkManager.swift in Sources */,
+				184B6BE425BEE0E700245B90 /* RestRequest.swift in Sources */,
 				ADB86A543DA4EE67B19F6A6BDB3F5558 /* CHLoginKit-dummy.m in Sources */,
-				14B7CC753AC2FCA899526C445B54A312 /* ReplaceMe.swift in Sources */,
+				184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */,
+				184B6BE625BEE1F600245B90 /* RestClient.swift in Sources */,
+				184B6BE225BEE0E700245B90 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -589,8 +615,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -664,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -684,6 +710,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
