@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CHLoginKit_Example' do
+  pod 'CHLoginKit', :path => '../'
+
+  target 'CHLoginKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
