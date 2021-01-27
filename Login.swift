@@ -7,7 +7,7 @@
 
 import Foundation
 
-func loginAdminRequest(_ request: LoginRequest) -> DataRequest {
-    print("PARAMETER_ADMIN = \(request.toJSON())")
-    return RestRequest.getPostRequest("/index.php/api/users/adminLogin", request.toJSON())
-}
+//func loginAdminRequest(_ request: LoginRequest) -> DataRequest {
+//    print("PARAMETER_ADMIN = \(request.toJSON())")
+//    return RestRequest.getPostRequest("/index.php/api/users/adminLogin", request.toJSON())
+//}

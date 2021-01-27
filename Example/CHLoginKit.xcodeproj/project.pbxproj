@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18AFD20825C14FCA00EBC39C /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFD20725C14FCA00EBC39C /* Tests.swift */; };
+		18F25C7C25C12DB3008FDA76 /* Pods_CHLoginKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F25C7825C12DAC008FDA76 /* Pods_CHLoginKit_Tests.framework */; };
+		18F25C7F25C12DC6008FDA76 /* Pods_CHLoginKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE6E67BDFCF51E1A7AFA116 /* Pods_CHLoginKit_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		80831AF4F1F7E28B754899C5 /* Pods_CHLoginKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8300281BEC37B683CAA8E0 /* Pods_CHLoginKit_Tests.framework */; };
-		A89FA0A76D70916671E7B966 /* Pods_CHLoginKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE6E67BDFCF51E1A7AFA116 /* Pods_CHLoginKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +29,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18AFD20725C14FCA00EBC39C /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		18F25C7825C12DAC008FDA76 /* Pods_CHLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CHLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CBB2A6B358BDC30E8387ED /* Pods-CHLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHLoginKit_Example.release.xcconfig"; path = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1FE0DA93446675916B884EC1 /* Pods-CHLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHLoginKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2F8300281BEC37B683CAA8E0 /* Pods_CHLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4820CD21ABC9B0F4DD14F2D4 /* CHLoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CHLoginKit.podspec; path = ../CHLoginKit.podspec; sourceTree = "<group>"; };
+		4820CD21ABC9B0F4DD14F2D4 /* CHLoginKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CHLoginKit.podspec; path = ../CHLoginKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* CHLoginKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHLoginKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +44,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CHLoginKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHLoginKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6FE60D1B0D5B37C7D87BDBCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6FE60D1B0D5B37C7D87BDBCE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9938B7EF9D8722650275642D /* Pods-CHLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHLoginKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A9C034CD573446CA44F5C66F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9C034CD573446CA44F5C66F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CFE6E67BDFCF51E1A7AFA116 /* Pods_CHLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8AE017D791358FAC27F91DE /* Pods-CHLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHLoginKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A89FA0A76D70916671E7B966 /* Pods_CHLoginKit_Example.framework in Frameworks */,
+				18F25C7C25C12DB3008FDA76 /* Pods_CHLoginKit_Tests.framework in Frameworks */,
+				18F25C7F25C12DC6008FDA76 /* Pods_CHLoginKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +118,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				18AFD20725C14FCA00EBC39C /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -147,13 +150,13 @@
 				9938B7EF9D8722650275642D /* Pods-CHLoginKit_Tests.debug.xcconfig */,
 				1FE0DA93446675916B884EC1 /* Pods-CHLoginKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		FC16C01965D5C157D816BD5B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18F25C7825C12DAC008FDA76 /* Pods_CHLoginKit_Tests.framework */,
 				CFE6E67BDFCF51E1A7AFA116 /* Pods_CHLoginKit_Example.framework */,
 				2F8300281BEC37B683CAA8E0 /* Pods_CHLoginKit_Tests.framework */,
 			);
@@ -213,11 +216,14 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X88R95TE95;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X88R95TE95;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +233,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -332,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				18AFD20825C14FCA00EBC39C /* Tests.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +485,10 @@
 			baseConfigurationReference = E8AE017D791358FAC27F91DE /* Pods-CHLoginKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = X88R95TE95;
 				INFOPLIST_FILE = CHLoginKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +503,10 @@
 			baseConfigurationReference = 19CBB2A6B358BDC30E8387ED /* Pods-CHLoginKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = X88R95TE95;
 				INFOPLIST_FILE = CHLoginKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +520,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9938B7EF9D8722650275642D /* Pods-CHLoginKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X88R95TE95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -519,6 +536,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHLoginKit_Example.app/CHLoginKit_Example";
@@ -529,6 +548,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FE0DA93446675916B884EC1 /* Pods-CHLoginKit_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X88R95TE95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -537,6 +560,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CHLoginKit_Example.app/CHLoginKit_Example";

@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CHLoginKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of CHLoginKit."
+  spec.summary      = "A short description of CHLoginKit.We are using ti for testing and learning to create pod"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description   = <<-DESC
-  ‘DscrollView is an awesome pod aimed to make yor life easier around UIScrollViews.’
+  "A short description of CHLoginKit.We are using ti for testing and learning to create pod.A short description of CHLoginKit.We are using ti for testing and learning to create pod"
               DESC
 
   spec.homepage     = "https://github.com/priyankavachhani/CHLoginKit"
@@ -66,7 +66,8 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.platform     = :ios, "9.0"
-
+  spec.swift_version = '5.0'
+  
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
@@ -91,9 +92,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CHLoginKit/**/*.swift"
+  spec.source_files  = "**/*.swift"
   spec.exclude_files = "Classes/Exclude"
-
+  
+ # spec.test_spec do|test|
+  #test.source_files = "CHLoginKitTests/*.swift"
+  #end
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
