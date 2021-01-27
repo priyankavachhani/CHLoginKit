@@ -6,6 +6,14 @@
 //
 
 import Foundation
+import TwilioVoice
+
+var audioDevice = DefaultAudioDevice()
+
+func twilioCheck() -> Void {
+    
+    TwilioVoiceSDK.audioDevice = audioDevice
+}
 
 //func loginAdminRequest(_ request: LoginRequest) -> DataRequest {
 //    print("PARAMETER_ADMIN = \(request.toJSON())")
