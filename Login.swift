@@ -8,11 +8,12 @@
 import Foundation
 import TwilioVoice
 
-var audioDevice = DefaultAudioDevice()
+
+//var audioDevice = DefaultAudioDevice()
 
 func twilioCheck() -> Void {
     
-    TwilioVoiceSDK.audioDevice = audioDevice
+    //TwilioVoiceSDK.audioDevice = audioDevice
 }
 
 //func loginAdminRequest(_ request: LoginRequest) -> DataRequest {
