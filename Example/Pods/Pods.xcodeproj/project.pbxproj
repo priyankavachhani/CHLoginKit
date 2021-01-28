@@ -10,6 +10,10 @@
 		0964011C579B2B9F28C01783D4EE1994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BDD25BEDA6F00245B90 /* Login.swift */; };
 		18ABA73A25C181060045D743 /* TwilioVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABA73925C181060045D743 /* TwilioVoice.framework */; };
+		18ABA79225C19ECF0045D743 /* CHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79125C19ECF0045D743 /* CHConfig.swift */; };
+		18ABA79725C19FFE0045D743 /* CHCallKitInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */; };
+		18ABA79F25C278FA0045D743 /* TVO_Callkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */; };
+		18ABA7BF25C2996A0045D743 /* CHTVOCallKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */; };
 		3439C49D657C314837C6C5BCC84B39AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		66AEB7B215C11B0FE099D8D21773BADC /* Pods-CHLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9702AB66B38872EE140F69A27FCA /* Pods-CHLoginKit_Tests-dummy.m */; };
 		6E983F7E8AAAC7CBC6A44121E0A88C36 /* CHLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +48,10 @@
 		119796D4F1C0E256598A66770531D57A /* Pods-CHLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		184B6BDD25BEDA6F00245B90 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		18ABA73925C181060045D743 /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoice.framework; sourceTree = "<group>"; };
+		18ABA79125C19ECF0045D743 /* CHConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHConfig.swift; sourceTree = "<group>"; };
+		18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCallKitInstance.swift; sourceTree = "<group>"; };
+		18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVO_Callkit.swift; sourceTree = "<group>"; };
+		18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHTVOCallKitClass.swift; sourceTree = "<group>"; };
 		1C22F9A56A7D334689D503858BB18D8A /* Pods-CHLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		27F246D7937665C6D49DEF8EC71252F8 /* Pods-CHLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		29950B880CAA1A4D8B13AD89E701013F /* CHLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHLoginKit-dummy.m"; sourceTree = "<group>"; };
@@ -218,6 +226,10 @@
 			isa = PBXGroup;
 			children = (
 				184B6BDD25BEDA6F00245B90 /* Login.swift */,
+				18ABA79125C19ECF0045D743 /* CHConfig.swift */,
+				18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */,
+				18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */,
+				18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */,
 				7614AD3CD44DB6C20FCAA590528CD3C5 /* Pod */,
 				AAB6089333F32C9FC42C96F9BE0028EF /* Support Files */,
 			);
@@ -384,6 +396,10 @@
 			files = (
 				ADB86A543DA4EE67B19F6A6BDB3F5558 /* CHLoginKit-dummy.m in Sources */,
 				184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */,
+				18ABA7BF25C2996A0045D743 /* CHTVOCallKitClass.swift in Sources */,
+				18ABA79F25C278FA0045D743 /* TVO_Callkit.swift in Sources */,
+				18ABA79725C19FFE0045D743 /* CHCallKitInstance.swift in Sources */,
+				18ABA79225C19ECF0045D743 /* CHConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
