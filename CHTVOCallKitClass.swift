@@ -60,8 +60,8 @@ public class CHTVOCallKitClass : NSObject
         configuration.maximumCallGroups = 1
         configuration.maximumCallsPerCallGroup = 1
         callKitProvider = CXProvider(configuration: configuration)
-        let icon = UIImage.init(named: "")
-        configuration.iconTemplateImageData = UIImagePNGRepresentation(icon!)
+//        let icon = UIImage.init(named: "")
+//        configuration.iconTemplateImageData = UIImagePNGRepresentation(icon!)
         
         
         if let provider = callKitProvider {
@@ -102,25 +102,25 @@ extension CHTVOCallKitClass: CXProviderDelegate {
         audioDevice.isEnabled = false
     }
 
-    func providerDidBegin(_ provider: CXProvider) {
+    public func providerDidBegin(_ provider: CXProvider) {
         NSLog("providerDidBegin")
     }
 
-    func provider(_ provider: CXProvider, didActivate audioSession: AVAudioSession) {
+    public func provider(_ provider: CXProvider, didActivate audioSession: AVAudioSession) {
         NSLog("provider:didActivateAudioSession:")
         audioDevice.isEnabled = true
     }
 
-    func provider(_ provider: CXProvider, didDeactivate audioSession: AVAudioSession) {
+    public func provider(_ provider: CXProvider, didDeactivate audioSession: AVAudioSession) {
         NSLog("provider:didDeactivateAudioSession:")
         audioDevice.isEnabled = false
     }
 
-    func provider(_ provider: CXProvider, timedOutPerforming action: CXAction) {
+    public func provider(_ provider: CXProvider, timedOutPerforming action: CXAction) {
         NSLog("provider:timedOutPerformingAction:")
     }
 
-    func provider(_ provider: CXProvider, perform action: CXStartCallAction) {
+    public func provider(_ provider: CXProvider, perform action: CXStartCallAction) {
         NSLog("provider:performStartCallAction:")
         
         
@@ -153,7 +153,7 @@ extension CHTVOCallKitClass: CXProviderDelegate {
         action.fulfill()
     }*/
 
-    func provider(_ provider: CXProvider, perform action: CXEndCallAction) {
+    public func provider(_ provider: CXProvider, perform action: CXEndCallAction) {
         NSLog("provider:performEndCallAction:")
         
         if let invite = activeCallInvites[action.callUUID.uuidString] {
@@ -311,7 +311,8 @@ extension CHTVOCallKitClass: CXProviderDelegate {
 
 @available(iOS 10.0, *)
 extension CHTVOCallKitClass: CallDelegate {
-    func callDidStartRinging(call: Call) {
+   
+    public func callDidStartRinging(call: Call) {
         NSLog("callDidStartRinging:")
         
        // placeCallButton.setTitle("Ringing", for: .normal)
@@ -345,7 +346,7 @@ extension CHTVOCallKitClass: CallDelegate {
 //        toggleAudioRoute(toSpeaker: true)
     }
     
-    func call(call: Call, isReconnectingWithError error: Error) {
+   public func call(call: Call, isReconnectingWithError error: Error) {
         NSLog("call:isReconnectingWithError:")
         
 //        placeCallButton.setTitle("Reconnecting", for: .normal)
@@ -353,7 +354,7 @@ extension CHTVOCallKitClass: CallDelegate {
 //        toggleUIState(isEnabled: false, showCallControl: false)
     }
     
-    func callDidReconnect(call: Call) {
+   public func callDidReconnect(call: Call) {
         NSLog("callDidReconnect:")
         
 //        placeCallButton.setTitle("Hang Up", for: .normal)
@@ -397,7 +398,7 @@ extension CHTVOCallKitClass: CallDelegate {
         callDisconnected(call: call)
     }
     
-    func callDisconnected(call: Call) {
+   public func callDisconnected(call: Call) {
         if call == activeCall {
             activeCall = nil
         }
@@ -415,7 +416,7 @@ extension CHTVOCallKitClass: CallDelegate {
 //        placeCallButton.setTitle("Call", for: .normal)
     }
     
-    func call(call: Call, didReceiveQualityWarnings currentWarnings: Set<NSNumber>, previousWarnings: Set<NSNumber>) {
+   public func call(call: Call, didReceiveQualityWarnings currentWarnings: Set<NSNumber>, previousWarnings: Set<NSNumber>) {
         /**
         * currentWarnings: existing quality warnings that have not been cleared yet
         * previousWarnings: last set of warnings prior to receiving this callback
