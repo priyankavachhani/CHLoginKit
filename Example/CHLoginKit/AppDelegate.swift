@@ -7,16 +7,45 @@
 //
 
 import UIKit
+import PushKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, PKPushRegistryDelegate {
 
     var window: UIWindow?
+
+    var voipRegistry = PKPushRegistry.init(queue: DispatchQueue.main)
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        initializePushKit()
+
         return true
+    }
+
+    func initializePushKit() {
+        voipRegistry.delegate = self
+        voipRegistry.desiredPushTypes = Set([PKPushType.voIP])
+    }
+    
+    
+    // MARK: PKPushRegistryDelegate
+    func pushRegistry(_ registry: PKPushRegistry, didUpdate credentials: PKPushCredentials, for type: PKPushType) {
+        NSLog("pushRegistry:didUpdatePushCredentials:forType:")
+
+//        if let delegate = self.pushKitEventDelegate {
+//            delegate.credentialsUpdated(credentials: credentials)
+//        }
+    }
+
+    func pushRegistry(_ registry: PKPushRegistry, didInvalidatePushTokenFor type: PKPushType) {
+        NSLog("pushRegistry:didInvalidatePushTokenForType:")
+
+//        if let delegate = self.pushKitEventDelegate {
+//            delegate.credentialsInvalidated()
+//        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
