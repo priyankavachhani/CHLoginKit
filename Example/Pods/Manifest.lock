@@ -1,16 +1,24 @@
 PODS:
-  - CHLoginKit (0.1.0)
+  - CHLoginKit (0.0.6):
+    - TwilioVoice
+  - TwilioVoice (6.1.0)
 
 DEPENDENCIES:
   - CHLoginKit (from `../`)
+  - TwilioVoice
+
+SPEC REPOS:
+  trunk:
+    - TwilioVoice
 
 EXTERNAL SOURCES:
   CHLoginKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CHLoginKit: 1b351f777bcc68d97cec1b5d53845beb72782ace
+  CHLoginKit: e9e23ee721ecaa6125c3563cc549bfa6a7c7e8b6
+  TwilioVoice: 1e83d3417edbd6f0487ebe0dcc5d9cd9184a0d64
 
-PODFILE CHECKSUM: 57b657ed2c798397ac94cc1d338caf6cfa96ece2
+PODFILE CHECKSUM: caa1fbef7c9a3abf549c64514c53e6292fa60893
 
 COCOAPODS: 1.8.4

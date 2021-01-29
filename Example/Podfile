@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '11.3'
 
 target 'CHLoginKit_Example' do
   pod 'CHLoginKit', :path => '../'
-
+  pod 'TwilioVoice'
 
   target 'CHLoginKit_Tests' do
     inherit! :search_paths

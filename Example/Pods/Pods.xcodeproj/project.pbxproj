@@ -6,22 +6,34 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		73614281932881D538B76C26B92E0193 /* TwilioVoice */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 73E94E906C5E9ABF0C57E484B7972BC9 /* Build configuration list for PBXAggregateTarget "TwilioVoice" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TwilioVoice;
+			productName = TwilioVoice;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0964011C579B2B9F28C01783D4EE1994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184B6BDD25BEDA6F00245B90 /* Login.swift */; };
-		18ABA73A25C181060045D743 /* TwilioVoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18ABA73925C181060045D743 /* TwilioVoice.framework */; };
-		18ABA79225C19ECF0045D743 /* CHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79125C19ECF0045D743 /* CHConfig.swift */; };
-		18ABA79725C19FFE0045D743 /* CHCallKitInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */; };
-		18ABA79F25C278FA0045D743 /* TVO_Callkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */; };
-		18ABA7BF25C2996A0045D743 /* CHTVOCallKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */; };
-		3439C49D657C314837C6C5BCC84B39AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		167392CA41746AD74103A78B09561D0C /* CHConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F1CC5E57452C0720F5DBAD828E11D /* CHConfig.swift */; };
+		183AE6A325C3C646004122A3 /* CHCallKitInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AE6A125C3C646004122A3 /* CHCallKitInstance.swift */; };
+		183AE6A425C3C646004122A3 /* CHTVOCallKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183AE6A225C3C646004122A3 /* CHTVOCallKitClass.swift */; };
+		40A1C7722385ED929CFF0EFC37C10148 /* TVO_Callkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF16DDA5104E14DFCA6A969010112D44 /* TVO_Callkit.swift */; };
+		4CC450C22240A75A826CB29192DB26E5 /* CHLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 533C7F30BF33077628A817BB6D9032D9 /* CHLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66AEB7B215C11B0FE099D8D21773BADC /* Pods-CHLoginKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DA9702AB66B38872EE140F69A27FCA /* Pods-CHLoginKit_Tests-dummy.m */; };
-		6E983F7E8AAAC7CBC6A44121E0A88C36 /* CHLoginKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADB86A543DA4EE67B19F6A6BDB3F5558 /* CHLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29950B880CAA1A4D8B13AD89E701013F /* CHLoginKit-dummy.m */; };
-		DFB61660932747F41F4A074EDA6373EB /* Pods-CHLoginKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FE535A716C26C989D291E445A7849D /* Pods-CHLoginKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		793F707043E24EF408E42214AAE7FF86 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB6E66B70EBC3087C3135AB587F888 /* Login.swift */; };
+		850AFC20C3F636CF2FD225D9327DAE24 /* Pods-CHLoginKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D14C19FEBE023D93569899A324FF18 /* Pods-CHLoginKit_Example-dummy.m */; };
+		956927D23C449A3ABA9B02D8F4BDEB3F /* Pods-CHLoginKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FE535A716C26C989D291E445A7849D /* Pods-CHLoginKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B01F8DB2677196E7E097D4F7D9689CDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DB457BD59A050FC5DC339514ED464611 /* CHLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1D8FCF702FA9DE203373B30D10A09 /* CHLoginKit-dummy.m */; };
 		E970CE46E8BBCD88CD1DCC3CCBAD7E4D /* Pods-CHLoginKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA6C5865FC6436EF044137C47B123A2 /* Pods-CHLoginKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F13FBFD5DBADAC46402B6AD2A6E497B9 /* Pods-CHLoginKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D14C19FEBE023D93569899A324FF18 /* Pods-CHLoginKit_Example-dummy.m */; };
-		F547B693B01257B3D44E1D026E641A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EAB611BAB4B76C27E277A62228DA73DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,70 +44,84 @@
 			remoteGlobalIDString = 02A81AA0941DE5FFB70B9CCD39089B4F;
 			remoteInfo = "Pods-CHLoginKit_Example";
 		};
-		EA440629A227AF2045B1F54ACF393CE0 /* PBXContainerItemProxy */ = {
+		3D2AD693E8BE125550C527356171AC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73614281932881D538B76C26B92E0193;
+			remoteInfo = TwilioVoice;
+		};
+		88DB75E17F56AE389A9F167F4AB13275 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 45E2CBDEB3DB79507EF44E2953864126;
 			remoteInfo = CHLoginKit;
 		};
+		DFE65C558FAE541CD84B8B64E9BD1E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73614281932881D538B76C26B92E0193;
+			remoteInfo = TwilioVoice;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		089C17D3F0FFE1EA2A5B0AA655303EC7 /* Pods-CHLoginKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHLoginKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		09DA9702AB66B38872EE140F69A27FCA /* Pods-CHLoginKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHLoginKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		0BD0FDBDECCC129FA31FA158C9A7643A /* CHLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHLoginKit-Info.plist"; sourceTree = "<group>"; };
 		0DA652D6970C830A638F83C501400440 /* Pods-CHLoginKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		119796D4F1C0E256598A66770531D57A /* Pods-CHLoginKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		184B6BDD25BEDA6F00245B90 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		18ABA73925C181060045D743 /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwilioVoice.framework; sourceTree = "<group>"; };
-		18ABA79125C19ECF0045D743 /* CHConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHConfig.swift; sourceTree = "<group>"; };
-		18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCallKitInstance.swift; sourceTree = "<group>"; };
-		18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVO_Callkit.swift; sourceTree = "<group>"; };
-		18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHTVOCallKitClass.swift; sourceTree = "<group>"; };
+		183AE6A125C3C646004122A3 /* CHCallKitInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHCallKitInstance.swift; sourceTree = "<group>"; };
+		183AE6A225C3C646004122A3 /* CHTVOCallKitClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTVOCallKitClass.swift; sourceTree = "<group>"; };
 		1C22F9A56A7D334689D503858BB18D8A /* Pods-CHLoginKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1EFD675866BEBADE6AD8B7F84AF6889F /* TwilioVoice.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwilioVoice.xcconfig; sourceTree = "<group>"; };
 		27F246D7937665C6D49DEF8EC71252F8 /* Pods-CHLoginKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		29950B880CAA1A4D8B13AD89E701013F /* CHLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHLoginKit-dummy.m"; sourceTree = "<group>"; };
 		3182B59C710A94EDC34F947594AF7967 /* CHLoginKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHLoginKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F43475D204D5E578AA2B14B7AB2682 /* Pods_CHLoginKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE1D8FCF702FA9DE203373B30D10A09 /* CHLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHLoginKit-dummy.m"; sourceTree = "<group>"; };
 		3CAF5DFBCEDCD77818435E9895612DC1 /* Pods-CHLoginKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3CFB6E66B70EBC3087C3135AB587F888 /* Login.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; includeInIndex = 1; path = Login.swift; sourceTree = "<group>"; };
+		4C7F1CC5E57452C0720F5DBAD828E11D /* CHConfig.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; includeInIndex = 1; path = CHConfig.swift; sourceTree = "<group>"; };
 		51E3E5231391EE7098CE7CBBC089FFF6 /* Pods-CHLoginKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		533C7F30BF33077628A817BB6D9032D9 /* CHLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-umbrella.h"; sourceTree = "<group>"; };
 		53D14C19FEBE023D93569899A324FF18 /* Pods-CHLoginKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHLoginKit_Example-dummy.m"; sourceTree = "<group>"; };
-		59638B354E879EE8D7BDB1E2EE721045 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5D899A015871B876C84ABEF7B80AFEE2 /* CHLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-prefix.pch"; sourceTree = "<group>"; };
 		6C5E131C54AA11378EBC047B4046D595 /* Pods-CHLoginKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHLoginKit_Tests.modulemap"; sourceTree = "<group>"; };
 		738E8B23FFA79D874B1AE0F536FDF17C /* Pods_CHLoginKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHLoginKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79709AE6187DFDFA19C9C94C9A88993E /* CHLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CHLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-umbrella.h"; sourceTree = "<group>"; };
-		8B8A234B062D7584076442B46AB6AF0C /* CHLoginKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHLoginKit-Info.plist"; sourceTree = "<group>"; };
-		8F74E25F4F0C45602A421760E3AB76C6 /* CHLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHLoginKit.modulemap; sourceTree = "<group>"; };
+		81033932CCE1DE98824E0CF15567AE8E /* TwilioVoice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwilioVoice.framework; path = Build/iOS/TwilioVoice.framework; sourceTree = "<group>"; };
 		92FE535A716C26C989D291E445A7849D /* Pods-CHLoginKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHLoginKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHLoginKit.xcconfig; sourceTree = "<group>"; };
-		A18746E977BBB16F0407D19CA8041519 /* CHLoginKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHLoginKit-prefix.pch"; sourceTree = "<group>"; };
 		ACA2FFB97C44E54904E3DE3D59452B83 /* Pods-CHLoginKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHLoginKit_Example-Info.plist"; sourceTree = "<group>"; };
-		B54780160F5B9294ABECDA478B6720A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AF16DDA5104E14DFCA6A969010112D44 /* TVO_Callkit.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; includeInIndex = 1; path = TVO_Callkit.swift; sourceTree = "<group>"; };
+		B8ACD10003194D1F31DD49D3F4F0B4FA /* CHLoginKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHLoginKit.modulemap; sourceTree = "<group>"; };
 		BF7F00544C2DE08E1652A5E5BF474773 /* Pods-CHLoginKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHLoginKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C0E01FB08A41EFA9A84A1047A867A3A1 /* Pods-CHLoginKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHLoginKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C85FA7245658A47884FBD7E471E610CD /* Pods-CHLoginKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHLoginKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9860F0A979CCADEB115131E48D21394 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CFA6C5865FC6436EF044137C47B123A2 /* Pods-CHLoginKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CHLoginKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D0AD989FECDF3242EA8AD00AB7CA8F97 /* Pods-CHLoginKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CHLoginKit_Example.modulemap"; sourceTree = "<group>"; };
+		D6B7EF515CFB199DEBD0E7F4DC621E12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E602481A5645651CAA0BE68DD39EBDB5 /* CHLoginKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CHLoginKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F383228A6E3339C4E5BF98564C06DA7E /* CHLoginKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHLoginKit.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75635DA6CEEE4A23F9B35FC78BD7DABB /* Frameworks */ = {
+		22B560F6FC3B7971F71346B1B5FC9369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F547B693B01257B3D44E1D026E641A97 /* Foundation.framework in Frameworks */,
-				18ABA73A25C181060045D743 /* TwilioVoice.framework in Frameworks */,
+				B01F8DB2677196E7E097D4F7D9689CDD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3B7E1D9652CC230FD4B693ABD747AE7 /* Frameworks */ = {
+		A84E4ECC325B5C083DA3CA394CE7DC97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3439C49D657C314837C6C5BCC84B39AD /* Foundation.framework in Frameworks */,
+				EAB611BAB4B76C27E277A62228DA73DA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,12 +136,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1422C1FF67A3C029DEA02FD6A8E2DD41 /* Development Pods */ = {
+		0716665F892615985CBC1087524EDD3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6D22CC826A1343CB5C982ABDECE16DA /* CHLoginKit */,
+				81033932CCE1DE98824E0CF15567AE8E /* TwilioVoice.framework */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		217E79A303083C558087CD50F2E2FAA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F79E95AD9D5A28ED3E4317587AB8A2B /* TwilioVoice */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2F79E95AD9D5A28ED3E4317587AB8A2B /* TwilioVoice */ = {
+			isa = PBXGroup;
+			children = (
+				0716665F892615985CBC1087524EDD3D /* Frameworks */,
+				EADAE8DA4A27A89F1B8A1C111108357B /* Support Files */,
+			);
+			path = TwilioVoice;
 			sourceTree = "<group>";
 		};
 		366EFCAC628EE6211D6E2B4ADFF2AD20 /* Products */ = {
@@ -137,12 +180,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7614AD3CD44DB6C20FCAA590528CD3C5 /* Pod */ = {
+		4C027E7A9D40FF49D46CA3432E64CA09 /* CHLoginKit */ = {
 			isa = PBXGroup;
 			children = (
-				79709AE6187DFDFA19C9C94C9A88993E /* CHLoginKit.podspec */,
-				59638B354E879EE8D7BDB1E2EE721045 /* LICENSE */,
-				B54780160F5B9294ABECDA478B6720A9 /* README.md */,
+				4C7F1CC5E57452C0720F5DBAD828E11D /* CHConfig.swift */,
+				3CFB6E66B70EBC3087C3135AB587F888 /* Login.swift */,
+				AF16DDA5104E14DFCA6A969010112D44 /* TVO_Callkit.swift */,
+				183AE6A125C3C646004122A3 /* CHCallKitInstance.swift */,
+				183AE6A225C3C646004122A3 /* CHTVOCallKitClass.swift */,
+				8B8026355216844247E2D35E12C9CF72 /* Pod */,
+				DD121A81B55D687B8FD1DA049D85CAE5 /* Support Files */,
+			);
+			name = CHLoginKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B8026355216844247E2D35E12C9CF72 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E602481A5645651CAA0BE68DD39EBDB5 /* CHLoginKit.podspec */,
+				C9860F0A979CCADEB115131E48D21394 /* LICENSE */,
+				D6B7EF515CFB199DEBD0E7F4DC621E12 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -164,24 +222,17 @@
 			path = "Target Support Files/Pods-CHLoginKit_Example";
 			sourceTree = "<group>";
 		};
-		AAB6089333F32C9FC42C96F9BE0028EF /* Support Files */ = {
+		ACB793C0E43843AD2F46FFA74A078E19 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F74E25F4F0C45602A421760E3AB76C6 /* CHLoginKit.modulemap */,
-				A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */,
-				29950B880CAA1A4D8B13AD89E701013F /* CHLoginKit-dummy.m */,
-				8B8A234B062D7584076442B46AB6AF0C /* CHLoginKit-Info.plist */,
-				A18746E977BBB16F0407D19CA8041519 /* CHLoginKit-prefix.pch */,
-				825382E5C545BE50EF18DC28E28B04DB /* CHLoginKit-umbrella.h */,
+				4C027E7A9D40FF49D46CA3432E64CA09 /* CHLoginKit */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CHLoginKit";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				18ABA73925C181060045D743 /* TwilioVoice.framework */,
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
@@ -191,8 +242,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1422C1FF67A3C029DEA02FD6A8E2DD41 /* Development Pods */,
+				ACB793C0E43843AD2F46FFA74A078E19 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				217E79A303083C558087CD50F2E2FAA4 /* Pods */,
 				366EFCAC628EE6211D6E2B4ADFF2AD20 /* Products */,
 				37F3CC6C1D734BD5ECAF7FF3E70CF3E2 /* Targets Support Files */,
 			);
@@ -222,24 +274,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F6D22CC826A1343CB5C982ABDECE16DA /* CHLoginKit */ = {
+		DD121A81B55D687B8FD1DA049D85CAE5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				184B6BDD25BEDA6F00245B90 /* Login.swift */,
-				18ABA79125C19ECF0045D743 /* CHConfig.swift */,
-				18ABA79625C19FFE0045D743 /* CHCallKitInstance.swift */,
-				18ABA79E25C278FA0045D743 /* TVO_Callkit.swift */,
-				18ABA7BE25C2996A0045D743 /* CHTVOCallKitClass.swift */,
-				7614AD3CD44DB6C20FCAA590528CD3C5 /* Pod */,
-				AAB6089333F32C9FC42C96F9BE0028EF /* Support Files */,
+				B8ACD10003194D1F31DD49D3F4F0B4FA /* CHLoginKit.modulemap */,
+				F383228A6E3339C4E5BF98564C06DA7E /* CHLoginKit.xcconfig */,
+				3BE1D8FCF702FA9DE203373B30D10A09 /* CHLoginKit-dummy.m */,
+				0BD0FDBDECCC129FA31FA158C9A7643A /* CHLoginKit-Info.plist */,
+				5D899A015871B876C84ABEF7B80AFEE2 /* CHLoginKit-prefix.pch */,
+				533C7F30BF33077628A817BB6D9032D9 /* CHLoginKit-umbrella.h */,
 			);
-			name = CHLoginKit;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHLoginKit";
+			sourceTree = "<group>";
+		};
+		EADAE8DA4A27A89F1B8A1C111108357B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EFD675866BEBADE6AD8B7F84AF6889F /* TwilioVoice.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TwilioVoice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3E05E7846585759ED9346F6D4C964E74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956927D23C449A3ABA9B02D8F4BDEB3F /* Pods-CHLoginKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		59386DCA443A6DDDBA0FEA56465C880F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,19 +316,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77223868A879A2C6AAA79869E0E4C9D6 /* Headers */ = {
+		C4EDAFEA1C21C5B97B0F9CAFDEBD5B92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E983F7E8AAAC7CBC6A44121E0A88C36 /* CHLoginKit-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		913E3A9DE6B935BFED7F2942743A76C6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFB61660932747F41F4A074EDA6373EB /* Pods-CHLoginKit_Example-umbrella.h in Headers */,
+				4CC450C22240A75A826CB29192DB26E5 /* CHLoginKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,17 +329,18 @@
 /* Begin PBXNativeTarget section */
 		02A81AA0941DE5FFB70B9CCD39089B4F /* Pods-CHLoginKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F42B5B549C63ABFF6582888FE8B56A86 /* Build configuration list for PBXNativeTarget "Pods-CHLoginKit_Example" */;
+			buildConfigurationList = 1E6C87C9557BBE2A593F7DE6E0C50251 /* Build configuration list for PBXNativeTarget "Pods-CHLoginKit_Example" */;
 			buildPhases = (
-				913E3A9DE6B935BFED7F2942743A76C6 /* Headers */,
-				695F615A2D5941A2C18FF2D862D3DAD4 /* Sources */,
-				B3B7E1D9652CC230FD4B693ABD747AE7 /* Frameworks */,
-				85D4110015E0E1B44B3C87978FEACC96 /* Resources */,
+				3E05E7846585759ED9346F6D4C964E74 /* Headers */,
+				E37FB12579FBA124406BCCC6CA6E8647 /* Sources */,
+				22B560F6FC3B7971F71346B1B5FC9369 /* Frameworks */,
+				8DA8CBA413F5E450A2C18A560399E135 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				597CC88CA9303ECEE8771249C74AA975 /* PBXTargetDependency */,
+				1CC560E48DDE3BB926E9E311AD4A5ACC /* PBXTargetDependency */,
+				91F92F9540635F109FFCECE89485E4C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-CHLoginKit_Example";
 			productName = "Pods-CHLoginKit_Example";
@@ -307,16 +368,17 @@
 		};
 		45E2CBDEB3DB79507EF44E2953864126 /* CHLoginKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B80B9079424C611C20D74E3EC147D74A /* Build configuration list for PBXNativeTarget "CHLoginKit" */;
+			buildConfigurationList = 1CE7091439B8EED548ABB169265C4F8A /* Build configuration list for PBXNativeTarget "CHLoginKit" */;
 			buildPhases = (
-				77223868A879A2C6AAA79869E0E4C9D6 /* Headers */,
-				D3AE3184209D1C1140C283E319DB7DD5 /* Sources */,
-				75635DA6CEEE4A23F9B35FC78BD7DABB /* Frameworks */,
-				582B863F4CBDD891F917A6BD6B1E933F /* Resources */,
+				C4EDAFEA1C21C5B97B0F9CAFDEBD5B92 /* Headers */,
+				8D242BFF5D14E289438A81B17D7081AF /* Sources */,
+				A84E4ECC325B5C083DA3CA394CE7DC97 /* Frameworks */,
+				6F229916B90B4589F794700E113C69F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				98BD00CCD41873FAE361F5BF291B4A86 /* PBXTargetDependency */,
 			);
 			name = CHLoginKit;
 			productName = CHLoginKit;
@@ -331,11 +393,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					45E2CBDEB3DB79507EF44E2953864126 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -353,19 +410,13 @@
 				45E2CBDEB3DB79507EF44E2953864126 /* CHLoginKit */,
 				02A81AA0941DE5FFB70B9CCD39089B4F /* Pods-CHLoginKit_Example */,
 				40C9CD502E27764E141A63C994D8A990 /* Pods-CHLoginKit_Tests */,
+				73614281932881D538B76C26B92E0193 /* TwilioVoice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		582B863F4CBDD891F917A6BD6B1E933F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85D4110015E0E1B44B3C87978FEACC96 /* Resources */ = {
+		6F229916B90B4589F794700E113C69F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,27 +430,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		695F615A2D5941A2C18FF2D862D3DAD4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		8DA8CBA413F5E450A2C18A560399E135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13FBFD5DBADAC46402B6AD2A6E497B9 /* Pods-CHLoginKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3AE3184209D1C1140C283E319DB7DD5 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D242BFF5D14E289438A81B17D7081AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADB86A543DA4EE67B19F6A6BDB3F5558 /* CHLoginKit-dummy.m in Sources */,
-				184B6BDE25BEDA6F00245B90 /* Login.swift in Sources */,
-				18ABA7BF25C2996A0045D743 /* CHTVOCallKitClass.swift in Sources */,
-				18ABA79F25C278FA0045D743 /* TVO_Callkit.swift in Sources */,
-				18ABA79725C19FFE0045D743 /* CHCallKitInstance.swift in Sources */,
-				18ABA79225C19ECF0045D743 /* CHConfig.swift in Sources */,
+				167392CA41746AD74103A78B09561D0C /* CHConfig.swift in Sources */,
+				DB457BD59A050FC5DC339514ED464611 /* CHLoginKit-dummy.m in Sources */,
+				183AE6A425C3C646004122A3 /* CHTVOCallKitClass.swift in Sources */,
+				793F707043E24EF408E42214AAE7FF86 /* Login.swift in Sources */,
+				183AE6A325C3C646004122A3 /* CHCallKitInstance.swift in Sources */,
+				40A1C7722385ED929CFF0EFC37C10148 /* TVO_Callkit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E37FB12579FBA124406BCCC6CA6E8647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850AFC20C3F636CF2FD225D9327DAE24 /* Pods-CHLoginKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +472,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		597CC88CA9303ECEE8771249C74AA975 /* PBXTargetDependency */ = {
+		1CC560E48DDE3BB926E9E311AD4A5ACC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHLoginKit;
 			target = 45E2CBDEB3DB79507EF44E2953864126 /* CHLoginKit */;
-			targetProxy = EA440629A227AF2045B1F54ACF393CE0 /* PBXContainerItemProxy */;
+			targetProxy = 88DB75E17F56AE389A9F167F4AB13275 /* PBXContainerItemProxy */;
 		};
 		6C8479A2333C2D420791D99A63D6B58E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -426,14 +484,27 @@
 			target = 02A81AA0941DE5FFB70B9CCD39089B4F /* Pods-CHLoginKit_Example */;
 			targetProxy = 36FA9BACF7324F62A979B9B9681E2A74 /* PBXContainerItemProxy */;
 		};
+		91F92F9540635F109FFCECE89485E4C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwilioVoice;
+			target = 73614281932881D538B76C26B92E0193 /* TwilioVoice */;
+			targetProxy = 3D2AD693E8BE125550C527356171AC6B /* PBXContainerItemProxy */;
+		};
+		98BD00CCD41873FAE361F5BF291B4A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwilioVoice;
+			target = 73614281932881D538B76C26B92E0193 /* TwilioVoice */;
+			targetProxy = DFE65C558FAE541CD84B8B64E9BD1E58 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2138DEEF2423E8A3CC7EFFF6739F461A /* Release */ = {
+		34F833313B442FE05E2EF586CFB68FDA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */;
+			baseConfigurationReference = F383228A6E3339C4E5BF98564C06DA7E /* CHLoginKit.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -443,22 +514,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_PREFIX_HEADER = "Target Support Files/CHLoginKit/CHLoginKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CHLoginKit/CHLoginKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CHLoginKit/CHLoginKit.modulemap";
 				PRODUCT_MODULE_NAME = CHLoginKit;
 				PRODUCT_NAME = CHLoginKit;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -466,44 +533,13 @@
 			};
 			name = Release;
 		};
-		382AEEFF4E321D80C8844EEDDD9BE7CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0E01FB08A41EFA9A84A1047A867A3A1 /* Pods-CHLoginKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C5F6A7FBC9EBA2D256436669E85F895 /* Debug */ = {
+		359750697AC44639B3DEDE299851D668 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 119796D4F1C0E256598A66770531D57A /* Pods-CHLoginKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -515,7 +551,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests.modulemap";
@@ -532,11 +568,13 @@
 			};
 			name = Debug;
 		};
-		61FCEE5620CA19D661652A456525FADB /* Release */ = {
+		407106CF41F0F26D1DFA3F26F6DFEB9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CAF5DFBCEDCD77818435E9895612DC1 /* Pods-CHLoginKit_Example.release.xcconfig */;
+			baseConfigurationReference = C0E01FB08A41EFA9A84A1047A867A3A1 /* Pods-CHLoginKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -548,10 +586,45 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AD43491905F03C8334EBB8E7AE9D733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C22F9A56A7D334689D503858BB18D8A /* Pods-CHLoginKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -566,7 +639,7 @@
 			};
 			name = Release;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		4B1F13D49B97FF90469FE040925F8D8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -614,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -625,7 +698,76 @@
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		6B95890BFD5C42126443748F4993AE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFD675866BEBADE6AD8B7F84AF6889F /* TwilioVoice.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B95AE7F808068B06D8F114A18706F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFD675866BEBADE6AD8B7F84AF6889F /* TwilioVoice.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E6C8E0C5A55E6226E04AB9D2DA77A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAF5DFBCEDCD77818435E9895612DC1 /* Pods-CHLoginKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Example/Pods-CHLoginKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -676,7 +818,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -689,11 +831,12 @@
 			};
 			name = Debug;
 		};
-		B274E918462FA5BCB9A54860BA4033A4 /* Debug */ = {
+		FDB469516F23F49CB824F976824FD27D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A06CA2ACD051B8D9EA62179F7C26E174 /* CHLoginKit.xcconfig */;
+			baseConfigurationReference = F383228A6E3339C4E5BF98564C06DA7E /* CHLoginKit.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -703,71 +846,59 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_PREFIX_HEADER = "Target Support Files/CHLoginKit/CHLoginKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CHLoginKit/CHLoginKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CHLoginKit/CHLoginKit.modulemap";
 				PRODUCT_MODULE_NAME = CHLoginKit;
 				PRODUCT_NAME = CHLoginKit;
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D6139C7A5FD30F7F36E34D4C75158DC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C22F9A56A7D334689D503858BB18D8A /* Pods-CHLoginKit_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CHLoginKit_Tests/Pods-CHLoginKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1CE7091439B8EED548ABB169265C4F8A /* Build configuration list for PBXNativeTarget "CHLoginKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB469516F23F49CB824F976824FD27D /* Debug */,
+				34F833313B442FE05E2EF586CFB68FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E6C87C9557BBE2A593F7DE6E0C50251 /* Build configuration list for PBXNativeTarget "Pods-CHLoginKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407106CF41F0F26D1DFA3F26F6DFEB9C /* Debug */,
+				86E6C8E0C5A55E6226E04AB9D2DA77A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */,
+				4B1F13D49B97FF90469FE040925F8D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E94E906C5E9ABF0C57E484B7972BC9 /* Build configuration list for PBXAggregateTarget "TwilioVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B95890BFD5C42126443748F4993AE53 /* Debug */,
+				7B95AE7F808068B06D8F114A18706F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,26 +906,8 @@
 		A1A151B0970DE0D764535AB88E569474 /* Build configuration list for PBXNativeTarget "Pods-CHLoginKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C5F6A7FBC9EBA2D256436669E85F895 /* Debug */,
-				D6139C7A5FD30F7F36E34D4C75158DC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B80B9079424C611C20D74E3EC147D74A /* Build configuration list for PBXNativeTarget "CHLoginKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B274E918462FA5BCB9A54860BA4033A4 /* Debug */,
-				2138DEEF2423E8A3CC7EFFF6739F461A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F42B5B549C63ABFF6582888FE8B56A86 /* Build configuration list for PBXNativeTarget "Pods-CHLoginKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				382AEEFF4E321D80C8844EEDDD9BE7CB /* Debug */,
-				61FCEE5620CA19D661652A456525FADB /* Release */,
+				359750697AC44639B3DEDE299851D668 /* Debug */,
+				4AD43491905F03C8334EBB8E7AE9D733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

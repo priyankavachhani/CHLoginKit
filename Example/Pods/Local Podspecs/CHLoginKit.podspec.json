@@ -1,9 +1,9 @@
 {
   "name": "CHLoginKit",
-  "version": "0.1.0",
-  "summary": "A short description of CHLoginKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/priyankavachhani@callhippo.com/CHLoginKit",
+  "version": "0.0.6",
+  "summary": "A short description of CHLoginKit.We are using ti for testing and learning to create pod",
+  "description": "\"A short description of CHLoginKit.We are using ti for testing and learning to create pod.A short description of CHLoginKit.We are using ti for testing and learning to create pod\"",
+  "homepage": "https://github.com/priyankavachhani/CHLoginKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -11,12 +11,20 @@
   "authors": {
     "priyankavachhani@callhippo.com": "priyankavachhani@callhippo.com"
   },
-  "source": {
-    "git": "https://github.com/priyankavachhani@callhippo.com/CHLoginKit.git",
-    "tag": "0.1.0"
-  },
   "platforms": {
-    "ios": "9.0"
+    "ios": "11.3"
   },
-  "source_files": "CHLoginKit/Classes/**/*"
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/priyankavachhani/CHLoginKit.git",
+    "tag": "0.0.6"
+  },
+  "source_files": "**/*.swift",
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "TwilioVoice": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

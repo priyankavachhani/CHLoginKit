@@ -9,18 +9,7 @@ import Foundation
 import TwilioVoice
 import CallKit
 
-protocol TVO_callKitDelegate {
-   
-    func callDidStartRinging_custom(call : Call) -> Void
-    func callDidConnect_custom(call : Call) -> Void
-    func callDidReconnect_custom(call : Call) -> Void
-    func CHcallDelegate(callInvite :CallInvite, uuid : NSUUID) -> Void
-    func callDisconnected_custom(call :Call) -> Void
-    func call(call :Call, isReconnectingWithError_custom : NSError) -> Void
-    func call(call :Call, didFailToConnectWithError_custom : NSError) -> Void
-    func call(call :Call, didDisconnectWithError_custom : NSError) -> Void
-    
-}
+
 @available(iOS 10.0, *)
 public class CHTVOCallKitClass : NSObject
 {
@@ -40,7 +29,7 @@ public class CHTVOCallKitClass : NSObject
     var callObserver : CXCallObserver!
     var calls_uuids_twilio : NSMutableArray!
     var userInitiatedDisconnect : Bool!
-    var audioDevice : DefaultAudioDevice!
+    var audioDevice = DefaultAudioDevice()
     var activeCall : Call!
     var twilio_callinvite : CallInvite!
     var activeCalls : [String: Call]! = [:]
@@ -75,7 +64,7 @@ public class CHTVOCallKitClass : NSObject
        // self.callKitCallController.callObserver.setDelegate(self, queue: DispatchQueue.main)
        
         self.playCustomRingback = true;
-        
+        TwilioVoiceSDK.audioDevice = audioDevice
         
 
     }
@@ -273,7 +262,7 @@ extension CHTVOCallKitClass: CXProviderDelegate {
         let connectOptions = ConnectOptions(accessToken: accessToken) { builder in
            // builder.params = [twimlParamTo: self.outgoingValue.text ?? ""]
             
-            builder.params = ["To":"+14845933533","X-PH-Userid":"5b977a8df19c7c1724650608","X-PH-Fromnumber":"+14845440966","X-PH-Devicetype":"iOS"]
+            builder.params = ["To":"+918320328049","X-PH-Userid":"5b977a8df19c7c1724650608","X-PH-Fromnumber":"+14845440966","X-PH-Devicetype":"iOS"]
             builder.uuid = uuid
         }
         
@@ -323,10 +312,14 @@ extension CHTVOCallKitClass: CallDelegate {
          accepted on the callee's side. The application can use the `AVAudioPlayer` to play custom audio files
          between the `[TVOCallDelegate callDidStartRinging:]` and the `[TVOCallDelegate callDidConnect:]` callbacks.
         */
+        
+        CHCallKitInstance.sharedchcallkitInstance.callStartRingingEvent()
+        
         if playCustomRingback {
             playRingback()
         }
     }
+    
     
     public func callDidConnect(call: Call) {
         NSLog("callDidConnect:")
@@ -487,11 +480,14 @@ extension CHTVOCallKitClass: CallDelegate {
     // MARK: Ringtone
     
     func playRingback() {
+        
+        
         let ringtonePath = URL(fileURLWithPath: Bundle.main.path(forResource: "ringtone", ofType: "wav")!)
         
         do {
             ringtonePlayer = try AVAudioPlayer(contentsOf: ringtonePath)
-            ringtonePlayer?.delegate = self as! AVAudioPlayerDelegate
+            //error
+            ringtonePlayer?.delegate = self
             ringtonePlayer?.numberOfLoops = -1
             
             ringtonePlayer?.volume = 1.0
@@ -506,5 +502,24 @@ extension CHTVOCallKitClass: CallDelegate {
         
         ringtonePlayer.stop()
     }
+    
+    
 }
+
+@available(iOS 10.0, *)
+extension CHTVOCallKitClass: AVAudioPlayerDelegate {
+    
+    public func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+        if (flag) {
+            NSLog("Audio player finished playing successfully")
+        } else {
+            NSLog("Audio player finished playing with some error")
+        }
+    }
+    
+    public func audioPlayerDecodeErrorDidOccur(_ player: AVAudioPlayer, error: Error?) {
+        
+    }
+}
+
 
